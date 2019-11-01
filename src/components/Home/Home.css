@@ -1,0 +1,57 @@
+.txt-heading {
+  margin-bottom: 0;
+  align-self: center;
+  font-family: 'Pacifico', cursive;
+  letter-spacing: 1px;
+  font-size: 1.8rem;
+  color: #e82e37;
+}
+
+.heading-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.input-required {
+  color: #e82e37;
+  font-size: 1rem;
+}
+
+.scroll-container {
+  display: flex;
+  margin-bottom: 10px;
+  flex-direction: row;
+  overflow-x: scroll;
+  width: 100%;
+  height: 150px;
+  flex-wrap: nowrap;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar; 
+  scrollbar-width: none;
+}
+
+.scroll-container-optional {
+  height: 80px;
+}
+
+.scroll-container::-webkit-scrollbar {
+  display: none; 
+}
+
+.txt-steps {
+  font-family: 'Staatliches', cursive;
+  margin-left: 8px;
+  margin-bottom: .2rem;
+  font-weight: 500;
+}
+
+.checkout-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.btn-checkout-container {
+  display: flex;
+  flex-direction: column;
+}

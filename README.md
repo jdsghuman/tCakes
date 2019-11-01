@@ -1,68 +1,59 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# tCakes
+A frontend ordering application that allows user to add view orders.
 
-In the project directory, you can run:
+Before you get started, make sure you have the following software installed on your computer:
 
-### `npm start`
+- [Node.js](https://nodejs.org/en/)
+- [Nodemon](https://nodemon.io/)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Development Setup Instructions
 
-### `npm test`
+Ensure the server is running before running the frontend application
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### API Instructions
+- Enter the server directory
+* Run `npm install`
+- Build the server files from typescript
+* `npm run build-ts`
+- Execute the server
+* Run `npm start`
+- The server should now be running at http://localhost:4000/.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Frontend Application Instructions
+- Enter the tCakes directory
+* Run `npm install`
+* Run `npm start`
+* Navigate to `http://localhost:3000/`
+- The application should now be running at http://localhost:3000/.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+### Features
+[**Complete**]  1. The user is offered a choice of three cupcake components
+   [**Complete**] - a base cupcake
+   [**Complete**] - a frosting
+   [**Complete**] - a topping
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+[**Complete**] 2. The user should be shown a price breakdown including:
 
-### `npm run eject`
+   [**Complete**] - cupcake price based on pricing of selected cupcake components
+   [**Complete**] - delivery charge of \$1.50 per order
+   [**Complete**] - sales tax for the state of IL (8.75%)
+   [**Complete**] - total without tax
+   [**Complete**] - total with tax
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+[**Complete**] 3. The user should choose a delivery date more than 24 hours in the future.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+[**Complete**] 4. The user should click a button to create the order by POSTing it to `localhost:4000/cupcakes/orders`.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### The Cupcake Order Management Screen
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+[**Complete**] Create a screen where users can monitor their existing orders.
 
-## Learn More
+[**Complete**] 1. The user should be displayed their orders in a table ordered by delivery
+   time, soonest first, by default.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+[**Complete**] 2. The user should be able to sort orders by delivery time, either ascending, or descending.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+[**Complete**] 3. The user should be able to filter orders by cupcake component.

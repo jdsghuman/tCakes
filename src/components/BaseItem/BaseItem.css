@@ -1,0 +1,48 @@
+.item {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  width: 250px;
+  height: 150px;
+  background: #f4f6f9;
+  margin-left: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+  flex: 0 0 auto;
+  border-radius: 5px;
+  color: #333333;
+}
+
+.item-clicked {
+  background: #0bc0ff;
+  color: #ffffff;
+}
+
+.item-optional {
+  height: 80px;
+}
+
+.item-title {
+  align-self: flex-end;
+  font-weight: bold;
+}
+
+.item-price {
+  align-self: flex-start;
+  position: absolute;
+  right: 0;
+  margin-right: 12px;
+}
+
+.item-selected-txt {
+  color: #ffffff;
+  position: absolute;
+  left: 0;
+  margin-top: 12px;
+  margin-left: 12px;
+}
+
+.icon-cupcake {
+  position: absolute;
+  top: 30%;
+}

@@ -1,0 +1,14 @@
+.msg-icon-filter {
+  margin-top: 1px;
+  height: 18px;
+  width: 18px;
+  cursor: pointer;
+}
+
+.orders-dropdown-container {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  position: relative;
+}

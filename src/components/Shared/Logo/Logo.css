@@ -1,0 +1,19 @@
+.txt-heading-logo {
+  position: absolute;
+  left: 0;
+  align-self: center;
+  margin: 1px 10px 0 12px;
+  background: #0bc0ff;
+  padding-left: 5px;
+  padding-right: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-family: 'Pacifico', cursive;
+  letter-spacing: 1px;
+  color: #e82e37;
+}
+
+.txt-heading-logo:hover {
+  background: #333333;
+}

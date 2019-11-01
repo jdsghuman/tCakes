@@ -1,0 +1,12 @@
+.order-icon {
+  position: absolute;
+  right: 0;
+  align-self: center;
+  margin-right: 12px;
+  color: #0bc0ff;
+  cursor: pointer;
+}
+
+.order-icon:hover {
+  color: #333333;
+}

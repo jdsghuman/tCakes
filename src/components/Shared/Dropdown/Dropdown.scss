@@ -1,0 +1,74 @@
+.filter-status {
+  display: flex;
+  align-items: center;
+
+  .trigger {
+    display: flex;
+    border: none;
+    width: 150px;
+    height: 100%;
+    padding-left: 1.3rem;
+    color: #333333;
+    background-color: transparent;
+    font-weight: normal;
+    align-items: center;
+    cursor: pointer;
+    font-size: 1rem;
+    align-items: center;
+    
+    &:focus {
+      outline: none;
+    }
+  }
+
+  .dropdown {
+    z-index: 60;
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    width: 150px;
+    border: none;
+    overflow: hidden;
+    font-weight: normal;
+    color: #ced4da;
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0px 1px 10px 2px #88888824;
+    cursor: pointer;
+
+    &.show {
+      display: flex;
+    }
+
+    button {
+      display: flex;
+      justify-content: left;
+      width: 100%;
+      border: none;
+      border-bottom: 1px solid #eeeeee;
+      padding: 12px 20px;
+      font-size: 14px;
+      color: #6a6a6a;
+      background-color: #fff;
+      text-decoration: none;
+      cursor: pointer;
+      outline: none;
+
+      &:focus,
+      &:hover {
+        background-color: #0bc0ff;
+        color: #ffffff;
+      }
+    }
+  }
+}
+
+.filter-carrot {
+  margin-left: 6px;
+}
+
+.filter-carrot-open {
+  transform: rotate(180deg);
+}
